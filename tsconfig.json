@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ES2015",
+    "module": "commonjs",
+    "lib": ["ES2015"],
+    "declaration": true,
+    "outDir": "./typings",
+    "declarationDir": "./typings",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "noImplicitAny": false,
+    "noEmit": true,
+    "allowJs": true
+  },
+  "include": [
+    "lib/**/*.js",
+    "typings/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "benchmark",
+    "test"
+  ]
+}

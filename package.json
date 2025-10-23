@@ -30,9 +30,11 @@
   "files": [
     "README.md",
     "index.js",
+    "index.d.ts",
     "lib/",
     "browser.js",
-    "dist/"
+    "dist/",
+    "typings/"
   ],
   "author": "Suguru Motegi",
   "license": "MIT",
